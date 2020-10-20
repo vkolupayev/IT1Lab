@@ -6,7 +6,7 @@
 *perziuri preceding siblings nuo paskutiniojo darbuotojo
 /Akademija/Personalas/Darbuotojas[last()]/preceding-sibling::*/Vardas/text()
 /Akademija/Personalas/Darbuotojas[./Vardas="Ona"]/@darb_id
-/Akademija/Personalas/Darbuotojas[last()]/following::*/Akademija/Personalas/Darbuotojas/following-sibling::*/Vardas/text()
+/Akademija/Personalas/Darbuotojas[last()]/following::*
 /Akademija/Personalas/Darbuotojas[2]/preceding::node()
 //@darb_id[.="d2"]/ancestor::*[1]/Vardas/text()
 2. Vardas/text() del vaizdumo
