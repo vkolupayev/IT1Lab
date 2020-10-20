@@ -1,0 +1,91 @@
+{
+  "Akademija": {
+    "Personalas": {
+      "Darbuotojas": [
+        {
+          "darb_id": "d1",
+          "Vardas": "Dovydas",
+          "Pavarde": "Dovydauskas",
+          "Gimimo_metai": "1975-08-25",
+          "Pareigybe": "Destytojas"
+        },
+        {
+          "darb_id": "d2",
+          "Vardas": "Lukas",
+          "Pavarde": "Lukauskas",
+          "Gimimo_metai": "1990-09-25",
+          "Pareigybe": "Destytojas"
+        },
+        {
+          "darb_id": "d3",
+          "Vardas": "Ona",
+          "Pavarde": "Onutaite",
+          "Gimimo_metai": "1980-08-25",
+          "Pareigybe": "Destytojas"
+        },
+        {
+          "darb_id": "d4",
+          "Vardas": "Toma",
+          "Pavarde": "Tomausauskaite",
+          "Gimimo_metai": "1993-05-25",
+          "Pareigybe": "Destytojas"
+        },
+        {
+          "darb_id": "d5",
+          "Vardas": "Doma",
+          "Pavarde": "Domausauskaite",
+          "Gimimo_metai": "1989-12-25",
+          "Pareigybe": "Administratorius"
+        }
+      ]
+    },
+    "Programa": {
+      "class": "Duomenu Mokslas",
+      "Kaina": "999.99",
+      "Dalykas": [
+        {
+          "dal_id": "s1",
+          "Pavadinimas": "Matematika Duomenu Mokslui",
+          "Destytojas": { "ref": "d1" },
+          "Trukme": "6",
+          "semestras": "1"
+        },
+        {
+          "dal_id": "s2",
+          "Pavadinimas": "Duomenu inzinerija",
+          "Destytojas": { "ref": "d4" },
+          "Trukme": "6",
+          "Semestras": "1"
+        },
+        {
+          "dal_id": "s3",
+          "Pavadinimas": "Skaitmeninis mokymasis",
+          "Destytojas": { "ref": "d3" },
+          "Trukme": "6",
+          "Semestras": "1"
+        },
+        {
+          "dal_id": "s4",
+          "Pavadinimas": "Gilieji Mokymosi Metodai",
+          "Destytojas": { "ref": "d3" },
+          "Trukme": "6",
+          "Semestras": "2"
+        },
+        {
+          "dal_id": "s5",
+          "Pavadinimas": "Kompiuterine Rega",
+          "Destytojas": { "ref": "d2" },
+          "Trukme": "6",
+          "Semestras": "2"
+        },
+        {
+          "dal_id": "s6",
+          "Pavadinimas": "Skaitmenine Naturalios Kalbos Analize",
+          "Destytojas": { "ref": "d4" },
+          "Trukme": "6",
+          "Semestras": "2"
+        }
+      ]
+    }
+  }
+}

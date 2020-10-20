@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Akademija xmlns="https://karklas.mif.vu.lt/~vlko4521">
+    <Personalas xmlns:par="https://lt.wikipedia.org/wiki/Pareigybė">
+        <Darbuotojas darb_id="1">
+            <Vardas>Dovydas</Vardas>
+            <Pavarde>Dovydauskas</Pavarde>
+            <Gimimo_metai>1975-08-25</Gimimo_metai>
+            <par:Pareigybe>Destytojas</par:Pareigybe>
+        </Darbuotojas>
+        <Darbuotojas darb_id="2">
+            <Vardas>Lukas</Vardas>
+            <Pavarde>Lukauskas</Pavarde>
+            <Gimimo_metai>1990-09-25</Gimimo_metai>
+            <par:Pareigybe>Destytojas</par:Pareigybe>
+        </Darbuotojas>
+        <Darbuotojas darb_id="3">
+            <Vardas>Ona</Vardas>
+            <Pavarde>Onutaite</Pavarde>
+            <Gimimo_metai>1980-08-25</Gimimo_metai>
+            <par:Pareigybe>Destytojas</par:Pareigybe>
+        </Darbuotojas>
+        <Darbuotojas darb_id="4">
+            <Vardas>Toma</Vardas>
+            <Pavarde>Tomausauskaite</Pavarde>
+            <Gimimo_metai>1993-05-25</Gimimo_metai>
+            <par:Pareigybe>Destytojas</par:Pareigybe>
+        </Darbuotojas>
+        <Darbuotojas darb_id="5">
+            <Vardas>Doma</Vardas>
+            <Pavarde>Domausauskaite</Pavarde>
+            <Gimimo_metai>1989-12-25</Gimimo_metai>
+            <par:Pareigybe>Administratorius</par:Pareigybe>
+        </Darbuotojas>
+    </Personalas>
+
+    <Programa class="Duomenu Mokslas">
+        <Kaina>999.99</Kaina>
+        <Dalykas dal_id="d1">
+            <!--Sando detales-->
+            <Pavadinimas>Matematika Duomenu Mokslui</Pavadinimas>
+            <Destytojas ref="1"/>
+            <Trukme>6</Trukme>
+            <semestras>1</semestras>
+        </Dalykas>
+        <Dalykas dal_id="d2">
+            <Pavadinimas>Duomenu inzinerija</Pavadinimas>
+            <Destytojas ref="4"/>
+            <Trukme>6</Trukme>
+            <Semestras>1</Semestras>
+        </Dalykas>
+        <Dalykas dal_id="d3">
+            <Pavadinimas>Skaitmeninis mokymasis</Pavadinimas>
+            <Destytojas ref="3"/>
+            <Trukme>6</Trukme>
+            <Semestras>1</Semestras>
+        </Dalykas>
+        <Dalykas dal_id="d4">
+            <Pavadinimas>Gilieji Mokymosi Metodai</Pavadinimas>
+            <Destytojas ref="3"/>
+            <Trukme>6</Trukme>
+            <Semestras>2</Semestras>
+        </Dalykas>
+        <Dalykas dal_id="d5">
+            <Pavadinimas>Kompiuterine Rega</Pavadinimas>
+            <Destytojas ref="2"/>
+            <Destytojas ref="3"/>
+            <Trukme>6</Trukme>
+            <Semestras>2</Semestras>
+        </Dalykas>
+        <Dalykas dal_id="d6">
+            <Pavadinimas>Skaitmenine Naturalios Kalbos Analize</Pavadinimas>
+            <Destytojas ref="4"/>
+            <Trukme>6</Trukme>
+            <Semestras>2</Semestras>
+        </Dalykas>
+    </Programa>
+</Akademija>

@@ -1,0 +1,30 @@
+1.
+/Akademija/Personalas/Darbuotojas/ancestor::node()
+/Akademija/Personalas/Darbuotojas[1]/descendant::*
+*perziuri kiekvienam darbuotojui following siblings ir sudaro aibe
+/Akademija/Personalas/Darbuotojas/following-sibling::*/Vardas/text()
+*perziuri preceding siblings nuo paskutiniojo darbuotojo
+/Akademija/Personalas/Darbuotojas[last()]/preceding-sibling::*/Vardas/text()
+/Akademija/Personalas/Darbuotojas[./Vardas="Ona"]/@darb_id
+/Akademija/Personalas/Darbuotojas[last()]/following::*/Akademija/Personalas/Darbuotojas/following-sibling::*/Vardas/text()
+/Akademija/Personalas/Darbuotojas[2]/preceding::node()
+//@darb_id[.="d2"]/ancestor::*[1]/Vardas/text()
+2. Vardas/text() del vaizdumo
+/Akademija/Personalas/Darbuotojas[./@darb_id = /Akademija/Programa/Dalykas[5]/Destytojas/@ref]/Vardas/text()
+3.
+sum(//@darb_id)
+count(//@*)
+4.
+//Dalykas[3]/Trukme < //Dalykas[4]/Trukme
+//Dalykas[3]/Trukme + //Darbuotojas[1]/@darb_id
+//Dalykas[3]/Pavadinimas + //Darbuotojas[1]/@darb_id
+//Darbuotojas[2]/@darb_id = //Dalykas[5]/Semestras
+5.
+/Akademija/Programa/Dalykas[1]/following::*/@dal_id
+6.
+//Darbuotojas = 5
+//Dalykas = true()
+//Dalykas[last()] = "Dalykas"
+(//Darbuotojas[4] | //Darbuotojas[5]) = //Darbuotojas[3]/following::* abi aibes verciamos i stringa
+7.
+//Dalykas < //Darbuotojas
