@@ -15,7 +15,7 @@
 sum(//@darb_id)
 count(//@*)
 4.
-//Dalykas[3]/Trukme < //Dalykas[4]/Trukme
+//Dalykas[3]/Trukme > false()
 //Dalykas[3]/Trukme + //Darbuotojas[1]/@darb_id
 //Dalykas[3]/Pavadinimas + //Darbuotojas[1]/@darb_id
 //Darbuotojas[2]/@darb_id = //Dalykas[5]/Semestras
